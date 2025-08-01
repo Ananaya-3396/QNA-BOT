@@ -7,7 +7,7 @@ from sklearn.metrics.pairwise import cosine_similarity
 import numpy as np
 
 # Set page title and configuration
-st.set_page_config(page_title="HR Q&A Assistant - Direct Data Approach", layout="wide")
+st.set_page_config(page_title="HR Q&A Assistant", layout="wide")
 
 # Load Q&A CSV
 @st.cache_data()
@@ -144,4 +144,5 @@ def main():
     # Removed explanation section as requested
 
 if __name__ == "__main__":
+
     main()
